@@ -9,7 +9,7 @@ import java.lang.reflect.Field;
 public class Service {
     public static final Logger LOGGER = LogManager.getLogger(Service.class);
 
-    public void print(Object o, Class c) {
+    public void printFieldsWithAnnotations(Object o, Class c) {
         Field[] fields = c.getDeclaredFields();
         for (Field field : fields) {
             Annotation[] annotations = field.getDeclaredAnnotations();
@@ -23,6 +23,15 @@ public class Service {
                     }
                 }
             }
+        }
+    }
+
+    public void printAnnotationValueInConsole( Class c){
+        Field[] fields = c.getDeclaredFields();
+        for (Field f: fields) {
+            Show show = f.getAnnotation(Show.class);
+            if (show != null)
+                LOGGER.info("Value from Person field \""+f.getName()+"\": @Show(name = \""+show.name()+"\")");
         }
     }
 }

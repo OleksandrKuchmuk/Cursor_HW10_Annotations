@@ -6,4 +6,8 @@ import java.lang.annotation.RetentionPolicy;
 @Retention(RetentionPolicy.RUNTIME)
 public @interface Show {
     boolean value() default true;
+    String name();
+    String string = "String";
+    String surname = "Surname of annotation";
+
 }
