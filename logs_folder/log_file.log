@@ -1,0 +1,12 @@
+[INFO] 2022-09-01 19:33:55.660 Service:20 - Alex 
+[INFO] 2022-09-01 19:33:55.665 Service:20 - 40 
+[INFO] 2022-09-01 19:33:55.665 Service:20 - Ukraine 
+[INFO] 2022-09-01 19:33:55.666 Service:20 - Ukraine will win 
+[INFO] 2022-09-01 19:35:14.505 Service:20 - name - Alex 
+[INFO] 2022-09-01 19:35:14.509 Service:20 - age - 40 
+[INFO] 2022-09-01 19:35:14.511 Service:20 - countryOfLiving - Ukraine 
+[INFO] 2022-09-01 19:35:14.511 Service:20 - message - Ukraine will win 
+[INFO] 2022-09-01 19:37:19.749 Service:20 - "name" - Alex 
+[INFO] 2022-09-01 19:37:19.754 Service:20 - "age" - 40 
+[INFO] 2022-09-01 19:37:19.754 Service:20 - "countryOfLiving" - Ukraine 
+[INFO] 2022-09-01 19:37:19.755 Service:20 - "message" - Ukraine will win 

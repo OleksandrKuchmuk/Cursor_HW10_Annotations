@@ -17,7 +17,7 @@ public class Service {
                 if (annotation.annotationType().equals(Show.class)) {
                     field.setAccessible(true);
                     try {
-                        LOGGER.info(field.get(o));
+                        LOGGER.info("\""+field.getName()+"\"" + " - " +field.get(o));
                     } catch (IllegalAccessException e) {
                         LOGGER.error("IllegalAccessException in print method");
                     }
