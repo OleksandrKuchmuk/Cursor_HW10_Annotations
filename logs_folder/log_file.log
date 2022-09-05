@@ -150,3 +150,285 @@ Value from Annotation in Person Fields:
 [INFO] 2022-09-01 21:30:42.425 Service:34 - Value from Person field "age": @Show(name = "from field 'age' with annotation @Show") 
 [INFO] 2022-09-01 21:30:42.426 Service:34 - Value from Person field "countryOfLiving": @Show(name = "from field 'countryOfLiving' with annotation @Show") 
 [INFO] 2022-09-01 21:30:42.427 Service:34 - Value from Person field "message": @Show(name = "from field 'message' with annotation @Show") 
+[INFO] 2022-09-02 12:26:37.611 Main:13 - 
+Fields from Person with annotation @Show:
+ 
+[INFO] 2022-09-02 12:26:37.634 Service:28 - "name" - Alex 
+[INFO] 2022-09-02 12:26:37.635 Service:28 - "age" - 40 
+[INFO] 2022-09-02 12:26:37.635 Service:28 - "countryOfLiving" - Ukraine 
+[INFO] 2022-09-02 12:26:37.636 Service:28 - "message" - Ukraine will win 
+[INFO] 2022-09-02 12:26:37.637 Main:19 - 
+Value from Annotation in Person Fields:
+ 
+[INFO] 2022-09-02 12:26:37.647 Service:42 - Value from Person field "name": @Show(name = "from field 'name' with annotation @Show") 
+[INFO] 2022-09-02 12:26:37.648 Service:42 - Value from Person field "age": @Show(name = "from field 'age' with annotation @Show") 
+[INFO] 2022-09-02 12:26:37.648 Service:42 - Value from Person field "countryOfLiving": @Show(name = "from field 'countryOfLiving' with annotation @Show") 
+[INFO] 2022-09-02 12:26:37.649 Service:42 - Value from Person field "message": @Show(name = "from field 'message' with annotation @Show") 
+[INFO] 2022-09-02 12:26:37.651 Main:23 - 
+Invoke method (three method with different parameters and return types)
+ 
+[INFO] 2022-09-02 12:41:37.835 Main:23 - 
+Invoke method (three method with different parameters and return types)
+ 
+[INFO] 2022-09-02 12:42:09.681 Main:23 - 
+Invoke method (three method with different parameters and return types)
+ 
+[INFO] 2022-09-02 12:43:35.175 Main:23 - 
+Invoke method (three method with different parameters and return types)
+ 
+[INFO] 2022-09-02 12:55:11.127 Main:23 - 
+Invoke method (three method with different parameters and return types)
+ 
+[INFO] 2022-09-02 12:55:59.185 Main:23 - 
+Invoke method (three method with different parameters and return types)
+ 
+[INFO] 2022-09-02 12:56:46.396 Main:23 - 
+Invoke method (three method with different parameters and return types)
+ 
+[INFO] 2022-09-02 12:57:19.153 Main:23 - 
+Invoke method (three method with different parameters and return types)
+ 
+[INFO] 2022-09-02 13:03:12.150 Main:25 - 
+Invoke method (three method with different parameters and return types)
+ 
+[INFO] 2022-09-02 13:06:29.112 Main:16 - 
+Fields from Person with annotation @Show:
+ 
+[INFO] 2022-09-02 13:14:07.285 Main:16 - 
+Fields from Person with annotation @Show:
+ 
+[INFO] 2022-09-02 13:27:34.192 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-02 13:31:39.386 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-02 13:32:07.117 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-02 13:32:29.358 Person:30 - I walk every day in the morning 
+[INFO] 2022-09-02 13:32:29.369 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-02 13:38:32.971 Person:30 - I walk every day in the morning 
+[INFO] 2022-09-02 13:38:32.975 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-02 13:45:36.004 Person:30 - I walk every day in the morning 
+[INFO] 2022-09-02 13:45:36.008 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-02 13:54:17.433 Person:30 - I walk every day in the morning 
+[INFO] 2022-09-02 13:54:17.438 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-02 13:54:17.438 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-02 15:42:59.038 Person:30 - I walk every day in the morning 
+[INFO] 2022-09-02 15:45:48.561 Person:30 - I walk every day in the morning 
+[INFO] 2022-09-02 15:49:06.330 Person:30 - I walk every day in the morning 
+[INFO] 2022-09-02 15:49:37.657 Person:30 - I walk every day in the morning 
+[INFO] 2022-09-02 15:49:37.662 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-02 15:51:24.492 Person:30 - I walk every day in the morning 
+[INFO] 2022-09-02 15:51:24.496 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-02 15:52:51.307 Person:30 - I walk every day in the morning 
+[INFO] 2022-09-02 15:52:51.310 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-02 15:53:30.820 Person:30 - I walk every day in the morning 
+[INFO] 2022-09-02 15:53:30.825 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-02 15:53:48.247 Person:30 - I walk every day in the morning 
+[INFO] 2022-09-02 15:53:48.252 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-02 16:00:35.045 Person:30 - I walk every day in the morning 
+[INFO] 2022-09-02 16:00:35.050 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-02 16:01:01.541 Person:30 - I walk every day in the morning 
+[INFO] 2022-09-02 16:01:01.545 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-02 16:02:08.696 Person:30 - I walk every day in the morning 
+[INFO] 2022-09-02 16:02:08.699 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-02 16:02:22.409 Person:30 - I walk every day in the morning 
+[INFO] 2022-09-02 16:02:22.413 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-02 16:02:55.089 Person:30 - I walk every day in the morning 
+[INFO] 2022-09-02 16:02:55.095 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-02 16:05:03.428 Person:30 - I walk every day in the morning 
+[INFO] 2022-09-02 16:05:03.433 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-02 18:11:07.823 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-02 18:12:39.488 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-02 18:13:34.993 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-02 18:14:06.587 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-02 18:21:19.001 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-02 18:21:59.143 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-02 18:22:40.779 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-05 10:57:45.261 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-05 10:58:23.372 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-05 10:59:36.747 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-05 11:01:04.067 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-05 11:02:47.289 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-05 11:40:17.889 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-05 11:41:46.527 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-05 11:42:37.962 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-05 11:43:13.481 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-05 11:43:33.601 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-05 11:46:01.548 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-05 11:48:06.144 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-05 11:48:48.440 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-05 12:16:29.217 Service:50 - 
+Calling method without parameters(the method should print the text that is in it):
+ 
+[INFO] 2022-09-05 12:16:29.221 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-05 12:23:47.943 Service:50 - 
+Calling method without parameters(the method should print the text that is in it):
+ 
+[INFO] 2022-09-05 12:23:47.948 Service:50 - 
+Calling method without parameters(the method should print the text that is in it):
+ 
+[INFO] 2022-09-05 12:27:43.972 Service:50 - 
+Calling method without parameters(the method should print the text that is in it):
+ 
+[INFO] 2022-09-05 12:28:35.760 Service:50 - 
+Calling method without parameters(the method should print the text that is in it):
+ 
+[INFO] 2022-09-05 12:28:35.763 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-05 12:33:31.169 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-05 12:35:45.741 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-05 12:35:45.743 TestMethodsForReflections:14 - Print some text from argument String: Hello, everybody!!! This is the text, that will be passed as an argument to the method 
+[INFO] 2022-09-05 12:36:11.014 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-05 12:36:11.020 TestMethodsForReflections:14 - Print some text from argument String: 
+Hello, everybody!!! This is the text, that will be passed as an argument to the method 
+[INFO] 2022-09-05 12:39:14.683 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-05 12:39:14.684 TestMethodsForReflections:14 - Print some text from argument String: 
+Hello, everybody!!! This is the text, that will be passed as an argument to the method 
+[INFO] 2022-09-05 12:40:20.756 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-05 12:40:20.758 TestMethodsForReflections:14 - Print some text from argument String: 
+Hello, everybody!!! This is the text, that will be passed as an argument to the method 
+[INFO] 2022-09-05 12:40:47.985 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-05 12:40:47.990 TestMethodsForReflections:14 - Print some text from argument String: 
+Hello, everybody!!! This is the text, that will be passed as an argument to the method 
+[INFO] 2022-09-05 12:48:17.149 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-05 12:48:17.151 TestMethodsForReflections:14 - Print some text from argument String: 
+Hello, everybody!!! This is the text, that will be passed as an argument to the method 
+[INFO] 2022-09-05 12:48:39.988 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-05 12:48:39.990 TestMethodsForReflections:14 - Print some text from argument String: 
+Hello, everybody!!! This is the text, that will be passed as an argument to the method 
+[INFO] 2022-09-05 12:55:49.644 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-05 12:55:49.645 TestMethodsForReflections:14 - Print some text from argument String: 
+Hello, everybody!!! This is the text, that will be passed as an argument to the method 
+[INFO] 2022-09-05 12:58:23.492 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-05 12:58:23.493 TestMethodsForReflections:14 - Print some text from argument String: 
+Hello, everybody!!! This is the text, that will be passed as an argument to the method 
+[INFO] 2022-09-05 12:58:44.731 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-05 12:58:44.735 TestMethodsForReflections:14 - Print some text from argument String: 
+Hello, everybody!!! This is the text, that will be passed as an argument to the method 
+[INFO] 2022-09-05 14:40:12.977 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-05 14:40:12.992 TestMethodsForReflections:14 - Print some text from argument String: 
+Hello, everybody!!! This is the text that will be passed as an argument to the method 
+[INFO] 2022-09-05 14:41:16.759 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-05 14:41:16.767 TestMethodsForReflections:14 - Print some text from argument String: 
+Hello, everybody!!! This is the text that will be passed as an argument to the method 
+[INFO] 2022-09-05 14:43:50.981 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-05 14:43:50.983 TestMethodsForReflections:14 - Print some text from argument String: 
+Hello, everybody!!! This is the text that will be passed as an argument to the method 
+[INFO] 2022-09-05 14:44:33.556 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-05 14:44:33.556 TestMethodsForReflections:14 - Print some text from argument String: 
+Hello, everybody!!! This is the text that will be passed as an argument to the method 
+[INFO] 2022-09-05 14:45:12.708 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-05 14:45:12.708 TestMethodsForReflections:14 - Print some text from argument String: 
+Hello, everybody!!! This is the text that will be passed as an argument to the method 
+[INFO] 2022-09-05 14:46:02.203 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-05 14:46:02.203 TestMethodsForReflections:14 - Print some text from argument String: 
+Hello, everybody!!! This is the text that will be passed as an argument to the method 
+[INFO] 2022-09-05 14:50:13.655 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-05 14:50:13.655 TestMethodsForReflections:14 - Print some text from argument String: 
+Hello, everybody!!! This is the text that will be passed as an argument to the method 
+[INFO] 2022-09-05 14:55:43.025 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-05 14:55:43.041 TestMethodsForReflections:14 - Print some text from argument String: 
+Hello, everybody!!! This is the text that will be passed as an argument to the method 
+[INFO] 2022-09-05 14:57:05.697 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-05 14:57:05.697 TestMethodsForReflections:14 - Print some text from argument String: 
+Hello, everybody!!! This is the text that will be passed as an argument to the method 
+[INFO] 2022-09-05 14:57:21.297 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-05 14:57:21.297 TestMethodsForReflections:14 - Print some text from argument String: 
+Hello, everybody!!! This is the text that will be passed as an argument to the method 
+[INFO] 2022-09-05 14:57:43.240 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-05 14:57:43.240 TestMethodsForReflections:14 - Print some text from argument String: 
+Hello, everybody!!! This is the text that will be passed as an argument to the method 
+[INFO] 2022-09-05 14:58:15.007 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-05 14:58:15.007 TestMethodsForReflections:14 - Print some text from argument String: 
+Hello, everybody!!! This is the text that will be passed as an argument to the method 
+[INFO] 2022-09-05 15:09:51.839 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-05 15:09:51.839 TestMethodsForReflections:14 - Print some text from argument String: 
+Hello, everybody!!! This is the text that will be passed as an argument to the method 
+[INFO] 2022-09-05 15:10:54.769 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-05 15:10:54.784 TestMethodsForReflections:14 - Print some text from argument String: 
+Hello, everybody!!! This is the text that will be passed as an argument to the method 
+[INFO] 2022-09-05 15:12:04.843 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-05 15:12:04.843 TestMethodsForReflections:14 - Print some text from argument String: 
+Hello, everybody!!! This is the text that will be passed as an argument to the method 
+[INFO] 2022-09-05 15:12:20.339 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-05 15:12:20.341 TestMethodsForReflections:14 - Print some text from argument String: 
+Hello, everybody!!! This is the text that will be passed as an argument to the method 
+[INFO] 2022-09-05 15:12:50.952 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-05 15:12:50.968 TestMethodsForReflections:14 - Print some text from argument String: 
+Hello, everybody!!! This is the text that will be passed as an argument to the method 
+[INFO] 2022-09-05 15:13:29.304 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-05 15:13:29.304 TestMethodsForReflections:14 - Print some text from argument String: 
+Hello, everybody!!! This is the text that will be passed as an argument to the method 
+[INFO] 2022-09-05 15:16:13.199 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-05 15:16:13.199 TestMethodsForReflections:14 - Print some text from argument String: 
+Hello, everybody!!! This is the text that will be passed as an argument to the method 
+[INFO] 2022-09-05 15:17:35.435 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-05 15:17:35.451 TestMethodsForReflections:14 - Print some text from argument String: 
+Hello, everybody!!! This is the text that will be passed as an argument to the method 
+[INFO] 2022-09-05 15:19:16.693 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-05 15:19:16.693 TestMethodsForReflections:14 - Print some text from argument String: 
+Hello, everybody!!! This is the text that will be passed as an argument to the method 
+[INFO] 2022-09-05 15:21:49.017 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-05 15:21:49.032 TestMethodsForReflections:14 - Print some text from argument String: 
+Hello, everybody!!! This is the text that will be passed as an argument to the method 
+[INFO] 2022-09-05 15:22:15.704 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-05 15:22:15.704 TestMethodsForReflections:14 - Print some text from argument String: 
+Hello, everybody!!! This is the text that will be passed as an argument to the method 
+[INFO] 2022-09-05 15:26:56.595 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-05 15:26:56.595 TestMethodsForReflections:14 - Print some text from argument String: 
+Hello, everybody!!! This is the text that will be passed as an argument to the method 
+[INFO] 2022-09-05 15:28:03.764 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-05 15:28:03.764 TestMethodsForReflections:14 - Print some text from argument String: 
+Hello, everybody!!! This is the text that will be passed as an argument to the method 
+[INFO] 2022-09-05 15:32:29.993 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-05 15:32:29.993 TestMethodsForReflections:14 - Print some text from argument String: 
+Hello, everybody!!! This is the text that will be passed as an argument to the method 
+[INFO] 2022-09-05 15:32:50.984 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-05 15:32:50.984 TestMethodsForReflections:14 - Print some text from argument String: 
+Hello, everybody!!! This is the text that will be passed as an argument to the method 
+[INFO] 2022-09-05 15:34:24.670 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-05 15:34:24.670 TestMethodsForReflections:14 - Print some text from argument String: 
+Hello, everybody!!! This is the text that will be passed as an argument to the method 
+[INFO] 2022-09-05 15:35:39.382 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-05 15:35:39.382 TestMethodsForReflections:14 - Print some text from argument String: 
+Hello, everybody!!! This is the text that will be passed as an argument to the method 
+[INFO] 2022-09-05 15:36:04.973 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-05 15:36:04.973 TestMethodsForReflections:14 - Print some text from argument String: 
+Hello, everybody!!! This is the text that will be passed as an argument to the method 
+[INFO] 2022-09-05 15:40:18.606 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-05 15:40:18.622 TestMethodsForReflections:14 - Print some text from argument String: 
+Hello, everybody!!! This is the text that will be passed as an argument to the method 
+[INFO] 2022-09-05 15:47:47.387 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-05 15:47:47.387 TestMethodsForReflections:14 - Print some text from argument String: 
+Hello, everybody!!! This is the text that will be passed as an argument to the method 
+[INFO] 2022-09-05 15:47:47.403 TestMethodsForReflections:32 - This is a test string 
+[INFO] 2022-09-05 16:05:03.641 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-05 16:05:03.657 TestMethodsForReflections:14 - Print some text from argument String: 
+Hello, everybody!!! This is the text that will be passed as an argument to the method 
+[INFO] 2022-09-05 16:05:03.657 TestMethodsForReflections:34 - This is a test string 
+[INFO] 2022-09-05 16:05:18.233 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-05 16:05:18.233 TestMethodsForReflections:14 - Print some text from argument String: 
+Hello, everybody!!! This is the text that will be passed as an argument to the method 
+[INFO] 2022-09-05 16:05:18.233 TestMethodsForReflections:34 - This is a test string 
+[INFO] 2022-09-05 16:05:48.684 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-05 16:05:48.684 TestMethodsForReflections:14 - Print some text from argument String: 
+Hello, everybody!!! This is the text that will be passed as an argument to the method 
+[INFO] 2022-09-05 16:05:48.700 TestMethodsForReflections:34 - This is a test string 
+[INFO] 2022-09-05 16:11:20.968 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-05 16:11:20.970 TestMethodsForReflections:14 - Print some text from argument String: 
+Hello, everybody!!! This is the text that will be passed as an argument to the method 
+[INFO] 2022-09-05 16:11:20.970 TestMethodsForReflections:34 - This is a test string 
+[INFO] 2022-09-05 16:17:54.463 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-05 16:17:54.479 TestMethodsForReflections:14 - Print some text from argument String: 
+Hello, everybody!!! This is the text that will be passed as an argument to the method 
+[INFO] 2022-09-05 16:17:54.479 TestMethodsForReflections:34 - This is a test string 
+[INFO] 2022-09-05 16:17:54.479 TestMethodsForReflections:29 - String at the ext: 
+is the string that is passed to the method  
+[INFO] 2022-09-05 16:19:08.920 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-05 16:19:08.920 TestMethodsForReflections:14 - Print some text from argument String: 
+Hello, everybody!!! This is the text that will be passed as an argument to the method 
+[INFO] 2022-09-05 16:19:08.920 TestMethodsForReflections:34 - This is a test string 
+[INFO] 2022-09-05 16:19:08.920 TestMethodsForReflections:29 - String at the ext: 
+is the string that is passed to the method  
+[INFO] 2022-09-05 16:19:48.255 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-05 16:19:48.255 TestMethodsForReflections:14 - Print some text from argument String: 
+Hello, everybody!!! This is the text that will be passed as an argument to the method 
+[INFO] 2022-09-05 16:19:48.255 TestMethodsForReflections:34 - This is a test string 
+[INFO] 2022-09-05 16:19:48.255 TestMethodsForReflections:29 - String at the ext: 
+is the string that is passed to the method  

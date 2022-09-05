@@ -25,4 +25,15 @@ public class Person {
         this.cityOfLiving = cityOfLiving;
         this.message = message;
     }
+
+public void walk(){
+   LOGGER.info("I walk every day in the morning");
 }
+
+
+
+
+
+
+}
+

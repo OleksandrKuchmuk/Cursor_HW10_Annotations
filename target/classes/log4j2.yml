@@ -39,7 +39,8 @@ configuration:
           level: info
 
     Logger:
-      - name: com.epam.Main
+      - name: com.cursor.Main
+        additivity: false
         level: all
         AppenderRef:
          - ref: myConsole
