@@ -16,7 +16,7 @@ public class Main {
         //fields in the class that were annotate by this annotation.
 
         LOGGER.info("\nFields from Person with annotation @Show:\n");
-        Person person = new Person("Alex", 40, false, "Ukraine", "Lviv", "Ukraine will win");
+        Person person = new Person("Alex", 40, "Ukraine", "Lviv", "Ukraine will win");
 
         Service service = new Service();
         service.printFieldsWithAnnotations(person, person.getClass());
@@ -79,6 +79,9 @@ public class Main {
         int[] intArray = {5, 48};
         service.substring(object, myClass, myMethodString, intArray);
 
-    }
 
+        //Task 6. Create your own class that received object of unknown type and show information about that Class.
+        LOGGER.info("We read the fields from the incoming class (in this case, a file) and show information about it\n");
+        service.readPersonFromFile();
+    }
 }

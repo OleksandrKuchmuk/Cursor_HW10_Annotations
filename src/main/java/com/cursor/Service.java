@@ -64,10 +64,10 @@ public class Service {
 
     public int result(Object o, Class cl, int a, int b, int c) throws Exception {
         Method method4 = cl.getMethod("method3", int.class, int.class, int.class);
-       return (int) method4.invoke(o, a, b, c);
+        return (int) method4.invoke(o, a, b, c);
     }
 
-    public void substring(Object obj, Class cls, String string, int[] intArray) throws Exception{
+    public void substring(Object obj, Class cls, String string, int[] intArray) throws Exception {
         Method method = cls.getMethod("myMethod", String.class, int[].class);
         method.invoke(obj, string, intArray);
     }
@@ -77,10 +77,44 @@ public class Service {
         ageField.setAccessible(true);
         ageField.setInt(obj, age);
     }
-        public void setCityField(Object obj, String city) throws IllegalAccessException, NoSuchFieldException {
-            Field cityField = obj.getClass().getDeclaredField("cityOfLiving");
-            cityField.setAccessible(true);
-            cityField.set(obj, city);
+
+    public void setCityField(Object obj, String city) throws IllegalAccessException, NoSuchFieldException {
+        Field cityField = obj.getClass().getDeclaredField("cityOfLiving");
+        cityField.setAccessible(true);
+        cityField.set(obj, city);
+
+    }
+
+    public void readPersonFromFile() {
+        FileReader fileReader = new FileReader();
+        String readFromFile = fileReader.readFile("user.txt");
+        readFromFile = readFromFile.replace("\r", "");
+        String[] stringsToLines = readFromFile.split("\n");
+        Person person = new Person();
+        Class classPerson = person.getClass();
+        Field[] fields = classPerson.getDeclaredFields();
+        for (int i = 0; i < fields.length; i++) {
+            Field field = fields[i];
+            if (field.isAnnotationPresent(FieldName.class)) {
+                FieldName fieldName = field.getAnnotation(FieldName.class);
+                String fieldValue = fieldName.value();
+                for (int j = 0; j < stringsToLines.length; j++) {
+                    String lineFromFile = stringsToLines[j];
+                    String firstPartOfLine = lineFromFile.split("=")[0];
+                    if(firstPartOfLine.equals(fieldValue)){
+                        field.setAccessible(true);
+                        try {
+                            field.set(person, lineFromFile.split("=")[1]);
+                        } catch (IllegalAccessException e) {
+                            e.printStackTrace();
+                        }
+                    }
+
+                }
+            }
+
+        }
+        LOGGER.info("the Person class with the fields subtracted from the user.txt file looks like this:\n"+person.toString());
 
     }
 }
