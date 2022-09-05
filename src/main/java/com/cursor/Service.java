@@ -71,4 +71,16 @@ public class Service {
         Method method = cls.getMethod("myMethod", String.class, int[].class);
         method.invoke(obj, string, intArray);
     }
+
+    public void setAgeField(Object obj, int age) throws IllegalAccessException, NoSuchFieldException {
+        Field ageField = obj.getClass().getDeclaredField("age");
+        ageField.setAccessible(true);
+        ageField.setInt(obj, age);
+    }
+        public void setCityField(Object obj, String city) throws IllegalAccessException, NoSuchFieldException {
+            Field cityField = obj.getClass().getDeclaredField("cityOfLiving");
+            cityField.setAccessible(true);
+            cityField.set(obj, city);
+
+    }
 }

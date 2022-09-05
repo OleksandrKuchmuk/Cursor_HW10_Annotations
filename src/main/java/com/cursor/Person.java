@@ -26,7 +26,15 @@ public class Person {
         this.message = message;
     }
 
-public void walk(){
+    public int getAge() {
+        return age;
+    }
+
+    public String getCityOfLiving() {
+        return cityOfLiving;
+    }
+
+    public void walk(){
    LOGGER.info("I walk every day in the morning");
 }
 

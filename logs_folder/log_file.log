@@ -432,3 +432,123 @@ Hello, everybody!!! This is the text that will be passed as an argument to the m
 [INFO] 2022-09-05 16:19:48.255 TestMethodsForReflections:34 - This is a test string 
 [INFO] 2022-09-05 16:19:48.255 TestMethodsForReflections:29 - String at the ext: 
 is the string that is passed to the method  
+[INFO] 2022-09-05 16:39:55.651 Service:30 - "name" - Alex 
+[INFO] 2022-09-05 16:39:55.651 Service:30 - "age" - 40 
+[INFO] 2022-09-05 16:39:55.667 Service:30 - "countryOfLiving" - Ukraine 
+[INFO] 2022-09-05 16:39:55.667 Service:30 - "message" - Ukraine will win 
+[INFO] 2022-09-05 16:39:55.683 Service:44 - Value from Person field "name": @Show(name = "from field 'name' with annotation @Show") 
+[INFO] 2022-09-05 16:39:55.683 Service:44 - Value from Person field "age": @Show(name = "from field 'age' with annotation @Show") 
+[INFO] 2022-09-05 16:39:55.683 Service:44 - Value from Person field "countryOfLiving": @Show(name = "from field 'countryOfLiving' with annotation @Show") 
+[INFO] 2022-09-05 16:39:55.683 Service:44 - Value from Person field "message": @Show(name = "from field 'message' with annotation @Show") 
+[INFO] 2022-09-05 16:39:55.698 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-05 16:39:55.698 TestMethodsForReflections:14 - Print some text from argument String: 
+Hello, everybody!!! This is the text that will be passed as an argument to the method 
+[INFO] 2022-09-05 16:41:30.017 Service:30 - "name" - Alex 
+[INFO] 2022-09-05 16:41:30.017 Service:30 - "age" - 40 
+[INFO] 2022-09-05 16:41:30.017 Service:30 - "countryOfLiving" - Ukraine 
+[INFO] 2022-09-05 16:41:30.017 Service:30 - "message" - Ukraine will win 
+[INFO] 2022-09-05 16:41:30.032 Service:44 - Value from Person field "name": @Show(name = "from field 'name' with annotation @Show") 
+[INFO] 2022-09-05 16:41:30.032 Service:44 - Value from Person field "age": @Show(name = "from field 'age' with annotation @Show") 
+[INFO] 2022-09-05 16:41:30.032 Service:44 - Value from Person field "countryOfLiving": @Show(name = "from field 'countryOfLiving' with annotation @Show") 
+[INFO] 2022-09-05 16:41:30.032 Service:44 - Value from Person field "message": @Show(name = "from field 'message' with annotation @Show") 
+[INFO] 2022-09-05 16:41:30.048 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-05 16:41:30.048 TestMethodsForReflections:14 - Print some text from argument String: 
+Hello, everybody!!! This is the text that will be passed as an argument to the method 
+[INFO] 2022-09-05 16:42:24.754 Service:30 - "name" - Alex 
+[INFO] 2022-09-05 16:42:24.754 Service:30 - "age" - 40 
+[INFO] 2022-09-05 16:42:24.754 Service:30 - "countryOfLiving" - Ukraine 
+[INFO] 2022-09-05 16:42:24.754 Service:30 - "message" - Ukraine will win 
+[INFO] 2022-09-05 16:42:24.785 Service:44 - Value from Person field "name": @Show(name = "from field 'name' with annotation @Show") 
+[INFO] 2022-09-05 16:42:24.785 Service:44 - Value from Person field "age": @Show(name = "from field 'age' with annotation @Show") 
+[INFO] 2022-09-05 16:42:24.785 Service:44 - Value from Person field "countryOfLiving": @Show(name = "from field 'countryOfLiving' with annotation @Show") 
+[INFO] 2022-09-05 16:42:24.785 Service:44 - Value from Person field "message": @Show(name = "from field 'message' with annotation @Show") 
+[INFO] 2022-09-05 16:42:24.785 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-05 16:42:24.785 TestMethodsForReflections:14 - Print some text from argument String: 
+Hello, everybody!!! This is the text that will be passed as an argument to the method 
+[INFO] 2022-09-05 16:42:24.785 TestMethodsForReflections:34 - This is a test string 
+[INFO] 2022-09-05 16:42:24.801 TestMethodsForReflections:29 - String at the exit: 
+is the string that is passed to the method  
+[INFO] 2022-09-05 16:43:27.105 Service:30 - "name" - Alex 
+[INFO] 2022-09-05 16:43:27.107 Service:30 - "age" - 40 
+[INFO] 2022-09-05 16:43:27.108 Service:30 - "countryOfLiving" - Ukraine 
+[INFO] 2022-09-05 16:43:27.109 Service:30 - "message" - Ukraine will win 
+[INFO] 2022-09-05 16:43:27.132 Service:44 - Value from Person field "name": @Show(name = "from field 'name' with annotation @Show") 
+[INFO] 2022-09-05 16:43:27.132 Service:44 - Value from Person field "age": @Show(name = "from field 'age' with annotation @Show") 
+[INFO] 2022-09-05 16:43:27.132 Service:44 - Value from Person field "countryOfLiving": @Show(name = "from field 'countryOfLiving' with annotation @Show") 
+[INFO] 2022-09-05 16:43:27.132 Service:44 - Value from Person field "message": @Show(name = "from field 'message' with annotation @Show") 
+[INFO] 2022-09-05 16:43:27.132 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-05 16:43:27.132 TestMethodsForReflections:14 - Print some text from argument String: 
+Hello, everybody!!! This is the text that will be passed as an argument to the method 
+[INFO] 2022-09-05 16:43:27.148 TestMethodsForReflections:34 - This is a test string 
+[INFO] 2022-09-05 16:43:27.148 TestMethodsForReflections:29 - String at the exit: 
+is the string that is passed to the method  
+[INFO] 2022-09-05 16:45:37.612 Service:30 - "name" - Alex 
+[INFO] 2022-09-05 16:45:37.628 Service:30 - "age" - 40 
+[INFO] 2022-09-05 16:45:37.628 Service:30 - "countryOfLiving" - Ukraine 
+[INFO] 2022-09-05 16:45:37.628 Service:30 - "message" - Ukraine will win 
+[INFO] 2022-09-05 16:45:37.628 Service:44 - Value from Person field "name": @Show(name = "from field 'name' with annotation @Show") 
+[INFO] 2022-09-05 16:45:37.644 Service:44 - Value from Person field "age": @Show(name = "from field 'age' with annotation @Show") 
+[INFO] 2022-09-05 16:45:37.644 Service:44 - Value from Person field "countryOfLiving": @Show(name = "from field 'countryOfLiving' with annotation @Show") 
+[INFO] 2022-09-05 16:45:37.644 Service:44 - Value from Person field "message": @Show(name = "from field 'message' with annotation @Show") 
+[INFO] 2022-09-05 16:45:37.644 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-05 16:45:37.644 TestMethodsForReflections:14 - Print some text from argument String: 
+Hello, everybody!!! This is the text that will be passed as an argument to the method 
+[INFO] 2022-09-05 16:45:37.644 TestMethodsForReflections:34 - This is a test string 
+[INFO] 2022-09-05 16:45:37.659 TestMethodsForReflections:29 - String at the exit: 
+is the string that is passed to the method  
+[INFO] 2022-09-05 16:47:31.642 Service:30 - "name" - Alex 
+[INFO] 2022-09-05 16:47:31.642 Service:30 - "age" - 40 
+[INFO] 2022-09-05 16:47:31.642 Service:30 - "countryOfLiving" - Ukraine 
+[INFO] 2022-09-05 16:47:31.650 Service:30 - "message" - Ukraine will win 
+[INFO] 2022-09-05 16:47:31.692 Service:44 - Value from Person field "name": @Show(name = "from field 'name' with annotation @Show") 
+[INFO] 2022-09-05 16:47:31.692 Service:44 - Value from Person field "age": @Show(name = "from field 'age' with annotation @Show") 
+[INFO] 2022-09-05 16:47:31.692 Service:44 - Value from Person field "countryOfLiving": @Show(name = "from field 'countryOfLiving' with annotation @Show") 
+[INFO] 2022-09-05 16:47:31.692 Service:44 - Value from Person field "message": @Show(name = "from field 'message' with annotation @Show") 
+[INFO] 2022-09-05 16:47:31.692 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-05 16:47:31.700 TestMethodsForReflections:14 - Print some text from argument String: 
+Hello, everybody!!! This is the text that will be passed as an argument to the method 
+[INFO] 2022-09-05 16:47:31.702 TestMethodsForReflections:34 - This is a test string 
+[INFO] 2022-09-05 16:47:31.702 TestMethodsForReflections:29 - String at the exit: 
+is the string that is passed to the method  
+[INFO] 2022-09-05 16:48:13.229 Service:30 - "name" - Alex 
+[INFO] 2022-09-05 16:48:13.229 Service:30 - "age" - 40 
+[INFO] 2022-09-05 16:48:13.229 Service:30 - "countryOfLiving" - Ukraine 
+[INFO] 2022-09-05 16:48:13.229 Service:30 - "message" - Ukraine will win 
+[INFO] 2022-09-05 16:48:13.260 Service:44 - Value from Person field "name": @Show(name = "from field 'name' with annotation @Show") 
+[INFO] 2022-09-05 16:48:13.260 Service:44 - Value from Person field "age": @Show(name = "from field 'age' with annotation @Show") 
+[INFO] 2022-09-05 16:48:13.260 Service:44 - Value from Person field "countryOfLiving": @Show(name = "from field 'countryOfLiving' with annotation @Show") 
+[INFO] 2022-09-05 16:48:13.260 Service:44 - Value from Person field "message": @Show(name = "from field 'message' with annotation @Show") 
+[INFO] 2022-09-05 16:48:13.276 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-05 16:48:13.276 TestMethodsForReflections:14 - Print some text from argument String: 
+Hello, everybody!!! This is the text that will be passed as an argument to the method 
+[INFO] 2022-09-05 16:48:13.276 TestMethodsForReflections:34 - This is a test string 
+[INFO] 2022-09-05 16:48:13.276 TestMethodsForReflections:29 - String at the exit: 
+is the string that is passed to the method  
+[INFO] 2022-09-05 16:50:00.380 Service:30 - "name" - Alex 
+[INFO] 2022-09-05 16:50:00.380 Service:30 - "age" - 40 
+[INFO] 2022-09-05 16:50:00.380 Service:30 - "countryOfLiving" - Ukraine 
+[INFO] 2022-09-05 16:50:00.380 Service:30 - "message" - Ukraine will win 
+[INFO] 2022-09-05 16:50:00.418 Service:44 - Value from Person field "name": @Show(name = "from field 'name' with annotation @Show") 
+[INFO] 2022-09-05 16:50:00.418 Service:44 - Value from Person field "age": @Show(name = "from field 'age' with annotation @Show") 
+[INFO] 2022-09-05 16:50:00.418 Service:44 - Value from Person field "countryOfLiving": @Show(name = "from field 'countryOfLiving' with annotation @Show") 
+[INFO] 2022-09-05 16:50:00.418 Service:44 - Value from Person field "message": @Show(name = "from field 'message' with annotation @Show") 
+[INFO] 2022-09-05 16:50:00.418 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-05 16:50:00.418 TestMethodsForReflections:14 - Print some text from argument String: 
+Hello, everybody!!! This is the text that will be passed as an argument to the method 
+[INFO] 2022-09-05 16:50:00.434 TestMethodsForReflections:34 - This is a test string 
+[INFO] 2022-09-05 16:50:00.434 TestMethodsForReflections:29 - String at the exit: 
+is the string that is passed to the method  
+[INFO] 2022-09-05 16:55:48.987 Service:30 - "name" - Alex 
+[INFO] 2022-09-05 16:55:48.987 Service:30 - "age" - 40 
+[INFO] 2022-09-05 16:55:48.987 Service:30 - "countryOfLiving" - Ukraine 
+[INFO] 2022-09-05 16:55:48.987 Service:30 - "message" - Ukraine will win 
+[INFO] 2022-09-05 16:55:49.003 Service:44 - Value from Person field "name": @Show(name = "from field 'name' with annotation @Show") 
+[INFO] 2022-09-05 16:55:49.003 Service:44 - Value from Person field "age": @Show(name = "from field 'age' with annotation @Show") 
+[INFO] 2022-09-05 16:55:49.003 Service:44 - Value from Person field "countryOfLiving": @Show(name = "from field 'countryOfLiving' with annotation @Show") 
+[INFO] 2022-09-05 16:55:49.003 Service:44 - Value from Person field "message": @Show(name = "from field 'message' with annotation @Show") 
+[INFO] 2022-09-05 16:55:49.003 TestMethodsForReflections:10 - This is first method without parameters 
+[INFO] 2022-09-05 16:55:49.018 TestMethodsForReflections:14 - Print some text from argument String: 
+Hello, everybody!!! This is the text that will be passed as an argument to the method 
+[INFO] 2022-09-05 16:55:49.034 TestMethodsForReflections:34 - This is a test string 
+[INFO] 2022-09-05 16:55:49.034 TestMethodsForReflections:29 - String at the exit: 
+is the string that is passed to the method  

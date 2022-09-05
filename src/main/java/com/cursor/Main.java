@@ -22,7 +22,7 @@ public class Main {
         service.printFieldsWithAnnotations(person, person.getClass());
 
         //Task 2. Print annotation value into console (e.g. @Annotation(name = &quot;111&quot;))
-        LOGGER.info("\nValue from Annotation in Person Fields:\n");
+        LOGGER.info("Value from Annotation in Person Fields:");
         service.printAnnotationValueInConsole(person.getClass());
 
 
@@ -54,15 +54,14 @@ public class Main {
 
 
         //Task 4. Set value into field using reflection.
+        LOGGER.info("Setting value into field using reflection.\n");
+        LOGGER.info("Person age before changing: "+person.getAge());
+        service.setAgeField(person, 25);
+        LOGGER.info("Person age after changing: "+person.getAge()+"\n");
 
-
-
-
-
-
-
-
-
+        LOGGER.info("Person age before changing: "+person.getCityOfLiving());
+        service.setCityField(person, "Ternopil");
+        LOGGER.info("Person age after changing: "+person.getCityOfLiving()+"\n");
 
 
 
